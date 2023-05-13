@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="C:\Users\86183\Desktop\2023RP_main\RP_Standard\MDK-ARM\test.jscope\unspecified" />
+            <ElfFile Name="C:\Users\86183\Desktop\2023RP_main\Balance_Down\MDK-ARM\Balance_Down\Balance_Down.axf" />
+            <DataFile Name="..\time.csv" />
+            <RawFile Name="..\time_1.csv" />
+            <Scope>
+                <Options TimeResolutionUs="500000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="rate_pitch" Address="0x200007D8" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="41550356" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\Application\DeviceLayer\Sensor\imu_sensor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="rate_yaw" Address="0x200007D4" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="41550356" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\Application\DeviceLayer\Sensor\imu_sensor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pitch" Address="0x200007CC" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="45416980" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\Application\DeviceLayer\Sensor\imu_sensor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw" Address="0x200007C8" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="45416980" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\Application\DeviceLayer\Sensor\imu_sensor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
